@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Varela+Round");
+@import url("https://fonts.googleapis.com/css?family=Cormorant+Garamond:600");
 @import url("https://fonts.googleapis.com/css?family=Playfair+Display+SC");
 body {
   margin: 0;
@@ -7,7 +7,8 @@ body {
 #navbar {
   background: white; }
   #navbar a {
-    color: black; }
+    color: black;
+    font-family: "Cormorant Garamond", serif; }
 
 #banner {
   width: 100% !important; }
@@ -15,7 +16,11 @@ body {
     height: 400px !important;
     margin-left: -10px !important;
     margin-right: -10px !important;
-    margin-top: -1px !important; }
+    margin-top: -1px !important;
+    background-image: url("img2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; }
     #banner .card-panel #intro {
       width: 100%;
       margin-top: 8%;
@@ -32,11 +37,12 @@ body {
         font-family: "Playfair Display SC", serif; }
       #banner .card-panel #intro p {
         font-size: 1.3rem;
-        font-family: "Varela Round", sans-serif; }
+        font-family: "Cormorant Garamond", serif; }
 
 #spec h1 {
   text-align: center;
-  font-size: 2.7em; }
+  font-size: 2.7em;
+  font-family: "Cormorant Garamond", serif; }
 
 .section #card :hover {
   background: #f0f011;
@@ -48,9 +54,13 @@ body {
     margin-top: 1px !important; }
   .section .card-panel h5 {
     margin-top: 40px !important;
-    font-family: "Varela Round", sans-serif; }
+    font-family: "Cormorant Garamond", serif; }
   .section .card-panel p {
     line-height: 27px;
-    font-family: "Varela Round", sans-serif; }
+    font-family: "Cormorant Garamond", serif; }
+
+@media (max-width: 345px) {
+  #intro h1 {
+    font-size: 5.5rem !important; } }
 
 /*# sourceMappingURL=index.css.map */

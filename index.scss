@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=Varela+Round');
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond:600');
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display+SC');
 $mainColor : #f0f011;
-$paraText: 'Varela Round', sans-serif;
+$paraText: 'Cormorant Garamond', serif;
 $myName: 'Playfair Display SC', serif;
 
 
@@ -17,17 +17,23 @@ body{
     background: white;
     a{
         color: black;
+        font-family: $paraText;
     }
 }
 
 
 #banner{
+   
     width: 100% !important;
     .card-panel{
         height:400px !important;
         margin-left: -10px !important;
         margin-right: -10px !important;
         margin-top: -1px !important;
+        background-image: url('img2.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
        
         #intro{
             width: 100%;
@@ -57,6 +63,7 @@ body{
     h1{
         text-align: center;
         font-size: 2.7em;
+        font-family: $paraText;
     }
 }
 
@@ -84,4 +91,13 @@ body{
      
     }
    
+}
+
+
+@media(max-width:345px){
+    #intro{
+        h1{
+            font-size: 5.5rem !important;
+        }
+    }
 }
