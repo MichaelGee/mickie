@@ -43,8 +43,8 @@
       <div  class="card-panel">
         <div id="intro">
             <h3>Hello i am</h3>
-            <h1>Mickie</h1>
-            <p>A freelance web developer and programmer...</p>
+            <h1>Jennie</h1>
+            <p>An aspiring medical student...</p>
         </div>
       </div>
     </div>
@@ -62,33 +62,31 @@
               <div id="card" class="col s12 m4">
                   <div class="card-panel">
                       <h1>01</h1>
-                      <h5>Web Design</h5>
+                      <h5>Anatomy</h5>
                       <p>
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti 
-                            quos fugiat suscipit rem 
-                            dignissimos.
+                        I have been studying that for three years now, i am great at it. I can tell
+                        you the name of relatively every part of your body.
                     </p>
                   </div>
               </div>
               <div  id="card" class="col s12 m4">
                     <div class="card-panel">
                         <h1>02</h1>
-                        <h5>React</h5>
+                        <h5>Human Physiology</h5>
                         <p>
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti 
-                            quos fugiat suscipit rem 
-                            dignissimos.
+                           Physiology? Hm. I can tell you about every organ in your body.
+                           Every one you can ever imagine. Try me...
                         </p>
                     </div>
                 </div>
                 <div  id="card" class="col s12 m4">
                     <div class="card-panel">
                         <h1>03</h1>
-                        <h5>Ui/Ux</h5>
+                        <h5>Unorthodox Surgery</h5>
                         <p>
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti 
-                            quos fugiat suscipit rem 
-                            dignissimos.
+                           No. Let's not talk about that one. You don't wanna go there. 
+                           I stopped someone once from from talking about it the first time we 
+                           met.
                         </p>
                     </div>
                 </div>
@@ -103,22 +101,80 @@
                 <div class="hire" class="container">
                     <div id="hire">
                         <h1>Why Me?</h1>
-                        <a class="waves-effect waves-light btn">Hire Me</a>
+                        <a id="click"class="waves-effect waves-light btn">Hire Me</a>
                     </div>
                     <div id="whyMe2">
                         <h1>Really? Why me?</h1>
-                        <p>Who the fuck do you want besides me i mean?
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                             Nostrum animi veniam at asperiores ut enim illum necessitatibus qui error 
-                            harum magni officiis ex nihil, ipsum, earum mollitia consequatur libero aliquid?
+                        <p>Who do you want besides me i mean? I've got great skills.
+                            My congnitives are great.
                         </p>
+                            
                     </div>
                 </div>
             </div>
       </div>
   </div>
+<h1 id="photo">My Photography</h1>
+   <!-- Slider -->
+   <section class="slider">
+    <ul class="slides">
+            <li>
+              <img src="pic1.jpg"> <!-- random image -->
+              <div class="caption center-align">
+                <h2>Enchanting..</h2>
+              </div>
+            </li>
+            <li>
+              <img src="pic2.jpg"> <!-- random image -->
+              <div class="caption center-align">
+                <h2 class="light">A Grand Beauty..</h2>
+              </div>
+            </li>
+            <li>
+              <img src="pic3.jpg"> <!-- random image -->
+              <div class="caption center-align">
+                <h2 class="light">Charming eyes like Medusa</h2>
+              </div>
+            </li>
+            <li>
+              <img src="pic4.jpg"> <!-- random image -->
+              <div class="caption center-align">
+                <h2 class="light">Sunflower</h2>
+              </div>
+              </div>
+            </li>
+          </ul>
+</section>
 
     
+
+
+<section class="footer">
+    <footer class="page-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col l6 s12">
+            
+          </div>
+          <div class="col l4 offset-l2 s12">
+            <h5 class="white-text">Contact</h5>
+            <ul id="Contact">
+              <li><a class="grey-text text-lighten-3" href="#!">Facebook</a></li>
+              <li><a class="grey-text text-lighten-3" href="#!">Twitter</i></a></li>
+              <li><a class="grey-text text-lighten-3" href="#!">GitHub</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright">
+        <div class="container">
+        Copyright @ Mickie 2018, All Rights Reserved
+        <a class="grey-text text-lighten-4 right" href="#nav">Back to top</a>
+        </div>
+      </div>
+    </footer>
+  </section>
+
      <!--JavaScript at end of body for optimized loading-->
      
     
@@ -127,6 +183,17 @@
   
   $(document).ready(function(){
     $('.sidenav').sidenav();
+  });
+
+  $('#click').click( function(){
+      prompt('Come on i have tried for so long. Now would you marry me?')
+  });
+  const slider = document.querySelector(".slider");
+  M.Slider.init(slider, {
+      indicators: false,
+      height: 500,
+      transition: 100,
+      interval: 5000
   });
      </script>
 </body>

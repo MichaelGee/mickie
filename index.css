@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Cormorant+Garamond:600");
 @import url("https://fonts.googleapis.com/css?family=Playfair+Display+SC");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
 body {
   margin: 0;
   padding: 0; }
@@ -95,13 +96,30 @@ body {
     #whyMe .hire #whyMe2 p {
       line-height: 27px; }
 
+#photo {
+  margin-top: 70px;
+  margin-left: 5%;
+  margin-bottom: 22px;
+  font-family: "Playfair Display SC", serif;
+  font-size: 2rem; }
+
+.caption h2 {
+  margin-top: 140px !important;
+  font-family: "Open Sans", sans-serif; }
+
+.footer, .page-footer {
+  background-color: #1d2124 !important; }
+
+.footer-copyright {
+  background: #191e20 !important; }
+
 /* Media Quaries*/
 @media (max-width: 345px) {
   #intro h1 {
     font-size: 5.5rem !important; } }
 @media (max-width: 845px) {
   #whyMe .card-panel {
-    overflow: scroll;
+    overflow: visible;
     text-overflow: ellipsis;
     height: 450px !important; }
   #whyMe .hire {

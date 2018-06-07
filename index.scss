@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond:600');
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display+SC');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
 $mainColor : #e7e71a;
 $paraText: 'Cormorant Garamond', serif;
 $myName: 'Playfair Display SC', serif;
 $whyMeColor: #eaf6ff;
-
+$slider: 'Open Sans', sans-serif;
 
 
 
@@ -144,7 +145,29 @@ body{
     }
 }
 
+#photo{
+    margin-top: 70px;
+    margin-left: 5%;
+    margin-bottom: 22px;
+    font-family: $myName;
+    font-size: 2rem;
+}
 
+.caption{
+    h2{
+        margin-top: 140px !important;
+        font-family: $slider;
+    }
+}
+
+
+.footer, .page-footer{
+    background-color :#1d2124 !important; 
+}
+
+.footer-copyright{
+    background: #191e20 !important;
+}
 
 
 /* Media Quaries*/
@@ -160,7 +183,7 @@ body{
     #whyMe{
         
         .card-panel{
-            overflow: scroll;
+            overflow: visible;
             text-overflow: ellipsis;
             height: 450px !important;
         }
