@@ -38,7 +38,7 @@ body {
         font-family: "Playfair Display SC", serif; }
       #banner .card-panel #intro h3 {
         margin: 0;
-        font-size: 2.0rem;
+        font-size: 2.5rem;
         font-family: "Playfair Display SC", serif; }
       #banner .card-panel #intro p {
         font-size: 1.3rem;
@@ -79,22 +79,24 @@ body {
     background-color: #e7e71a;
     font-family: "Cormorant Garamond", serif; }
 
-#whyMe .hire {
-  display: flex; }
-  #whyMe .hire #hire {
-    flex: 1;
-    margin-left: 70px;
-    margin-top: 80px; }
-  #whyMe .hire #whyMe2 {
-    flex: 1;
-    margin: auto;
-    text-align: center; }
-    #whyMe .hire #whyMe2 h1 {
-      font-family: "Playfair Display SC", serif;
-      font-size: 2.2rem;
-      margin-top: 70px; }
-    #whyMe .hire #whyMe2 p {
-      line-height: 27px; }
+#whyMe {
+  margin-top: -20px !important; }
+  #whyMe .hire {
+    display: flex; }
+    #whyMe .hire #hire {
+      flex: 1;
+      margin-left: 70px;
+      margin-top: 80px; }
+    #whyMe .hire #whyMe2 {
+      flex: 1;
+      margin: auto;
+      text-align: center; }
+      #whyMe .hire #whyMe2 h1 {
+        font-family: "Playfair Display SC", serif;
+        font-size: 2.2rem;
+        margin-top: 70px; }
+      #whyMe .hire #whyMe2 p {
+        line-height: 27px; }
 
 #photo {
   margin-top: 70px;
@@ -108,6 +110,7 @@ body {
   font-family: "Open Sans", sans-serif; }
 
 .footer, .page-footer {
+  margin-top: -35px !important;
   background-color: #1d2124 !important; }
 
 .footer-copyright {
