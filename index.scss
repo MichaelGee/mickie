@@ -181,6 +181,12 @@ body{
     }
 }
 
+@media(max-width: 500px){
+    h2{
+        font-size: 2rem !important;
+    }
+}
+
 @media(max-width:845px){
     #whyMe{
         

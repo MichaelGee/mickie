@@ -120,6 +120,9 @@ body {
 @media (max-width: 345px) {
   #intro h1 {
     font-size: 5.5rem !important; } }
+@media (max-width: 500px) {
+  h2 {
+    font-size: 2rem !important; } }
 @media (max-width: 845px) {
   #whyMe .card-panel {
     overflow: visible;
